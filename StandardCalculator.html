@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Calculator</title>
+    <link rel="stylesheet" href="standard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+</head>
+<body>
+
+    <div class="mainbody">
+
+        <div class="container">
+                <input type="text" placeholder="0" id="input" disabled  >
+
+
+           <div class="box2">
+
+            <button onclick="square_root()" class="special">√ </button>
+            <button onclick="pi_func()" class="special">𝝅</button>
+            <button onclick="Exponent('**')" class="special">^</button>
+            <button onclick="factorial()" class="special" >!</button>
+
+            <button onclick="all_clearResult()" class="special" >AC</button>
+            <button onclick="numbers('(')" class="special">(</button>
+            <button onclick="numbers(')')" class="special">)</button>
+            <button onclick="numbers('%')" class="special">%</button>    
+   
+
+            <button onclick="numbers('7')">7</button>
+            <button onclick="numbers('8')">8</button>
+            <button onclick="numbers('9')">9</button>
+            <button onclick="numbers('*')"class="special">x</button>
+
+            <button onclick="numbers('4')">4</button>
+            <button onclick="numbers('5')">5</button>
+            <button onclick="numbers('6')">6</button>
+            <button onclick="numbers('-')" class="special">-</button>
+
+            <button onclick="numbers('1')">1</button>
+            <button onclick="numbers('2')">2</button>
+            <button onclick="numbers('3')">3</button>
+            <button onclick="numbers('+')" class="special">+</button>
+
+            <button onclick="numbers('0')">0</button>
+            <button onclick="numbers('.')" class="special">.</button>
+            <button onclick="deletebutton()" class="special"><i id="icon" class="material-icons">backspace</i></button>
+            <button onclick="numbers('/')" class="special">÷</button>
+            <button onclick="calculate()" class="special">=</button>
+
+           </div>
+
+        </div>
+    </div>
+    
+    <script src="standard.js"></script>
+</body>
+</html>
