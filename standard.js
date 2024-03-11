@@ -61,27 +61,3 @@ output.value = fact;
 
 
 
-
-// let fact=1;
-// function factorial(num) {
-//     // let fact = 1;
-//     for (var i = 1; i <= num; i++) {
-//         fact = fact * i;
-//     }
-//     // return fact;
-     
-// }
-
-// output.value = fact;
-
-
-// console.log(getFact(5))
-
-// function getFact(number) {
-//     let fact = 1;
-//     for (var i = 1; i <= number; i++) {
-//         fact = fact * i;
-//     }
-//     return fact;
-// }
-// console.log(getFact(5))
